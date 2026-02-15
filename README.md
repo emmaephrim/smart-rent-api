@@ -35,3 +35,20 @@ com.smartrent.api
 ├── dto # Request & response DTOs
 ├── exception # Global exception handling
 └── security # JWT & authentication logic
+
+## 👥 User Roles
+
+The system supports multiple roles using a Many-to-Many relationship:
+
+- LANDLORD
+- RENTER
+- AGENT
+- ADMIN
+
+Tables:
+
+- `users`
+- `roles`
+- `user_roles` (join table)
+
+This design allows flexible role expansion (e.g. SUPER_ADMIN) without schema changes.
