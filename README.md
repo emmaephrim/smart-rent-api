@@ -85,3 +85,68 @@ Using Maven wrapper:
 The API will start at:
 
 <pre class="overflow-visible! px-0!" data-start="1984" data-end="2013"><div class="contain-inline-size rounded-2xl corner-superellipse/1.1 relative bg-token-sidebar-surface-primary"><div class="sticky top-[calc(var(--sticky-padding-top)+9*var(--spacing))]"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>http:</span><span>//localhost:8080</span></span></code></div></div></pre>
+
+## 📌 Current Features
+
+- User entity with role-based architecture
+- PostgreSQL integration
+- JPA & Hibernate configuration
+- Layered project structure
+
+---
+
+## 🔐 Planned Features
+
+- JWT Authentication
+- Role-based authorization
+- Property listing management
+- Booking & availability system
+- Admin property verification workflow
+- Redis caching for popular listings
+- Geo-location filtering (PostGIS)
+- Analytics dashboard
+
+---
+
+## 🧠 Design Decisions
+
+### Why PostgreSQL?
+
+- Strong relational support
+- Transactional integrity
+- Future support for geospatial queries via PostGIS
+
+### Why Role-Based Architecture?
+
+Instead of separate landlord/renter tables, a flexible role system ensures:
+
+- Single authentication system
+- Cleaner authorization
+- Easier feature expansion
+- Enterprise scalability
+
+---
+
+## 📈 Roadmap
+
+- [ ] Role seeding at startup
+- [ ] Password encryption (BCrypt)
+- [ ] User registration endpoint
+- [ ] Login with JWT
+- [ ] Property CRUD
+- [ ] Booking workflow
+- [ ] Admin dashboard APIs
+
+---
+
+## 🌍 Project Vision
+
+Smart Rent aims to reduce property search friction and rental scams by introducing verification workflows and structured listing management, addressing real-world housing discovery challenges in emerging markets.
+
+---
+
+## 👨‍💻 Author
+
+Emmanuel Ephrim
+
+Fullstack Developer | Angular | Spring Boot | Cloud | Mobile
