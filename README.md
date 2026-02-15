@@ -52,3 +52,21 @@ Tables:
 - `user_roles` (join table)
 
 This design allows flexible role expansion (e.g. SUPER_ADMIN) without schema changes.
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+git clone https://github.com/YOUR_USERNAME/smart-rent-api.git
+cd smart-rent-api
+
+### 2️⃣ Configure Database
+
+Create a PostgreSQL database:
+CREATE DATABASE smart_rent;
+
+Update `application.properties`:
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/smart_rent
+spring.datasource.username=postgres
+spring.datasource.password=your_password
