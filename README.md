@@ -146,8 +146,3 @@ Smart Rent aims to reduce property search friction and rental scams by introduci
 ---
 
 ## 👨🏾‍💻 Author
-
-**Emmanuel Ephrim**
-Fullstack Developer | Mobile Developer | Cloud | Web Developer
-
-Built as part of a scalable property-tech ecosystem focused on solving real housing discovery challenges in Africa.
