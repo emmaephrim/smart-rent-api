@@ -144,10 +144,3 @@ Instead of separate landlord/renter tables, a flexible role system ensures:
 Smart Rent aims to reduce property search friction and rental scams by introducing verification workflows and structured listing management, addressing real-world housing discovery challenges in emerging markets.
 
 ---
-
-## 👨🏾‍💻 Author
-
-**Emmanuel Ephrim**
-Fullstack Developer | Mobile Developer | Cloud | Web Developer
-
-Built as part of a scalable property-tech ecosystem focused on solving real housing discovery challenges in Africa.
